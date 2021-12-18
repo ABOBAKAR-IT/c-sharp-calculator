@@ -12,6 +12,10 @@ namespace calculator
 {
     public partial class Form1 : Form
     {
+
+        string val_1, val_2="";
+        char oprt;
+        bool option = false;
         public Form1()
         {
             InitializeComponent();
@@ -27,10 +31,28 @@ namespace calculator
             if (textBox1.Text == "0" || textBox1.Text == "" || textBox1.Text == null)
             {
                 textBox1.Text = "1";
+                val_1 = "1";
             }
             else
             {
-                textBox1.Text = textBox1.Text + "1";
+                if (option == false)
+                {
+                val_1 += "1";
+                textBox1.Text += "1";
+                }
+                else
+                {
+                    if (val_2 == "")
+                    {
+                        val_2 = "1";
+                        textBox1.Text += "1";
+                    }
+                    else
+                    {
+                        val_2 += "1";
+                        textBox1.Text += "1";
+                    }
+                }
             }
         }
 
@@ -175,14 +197,28 @@ namespace calculator
 
         private void Button17_Click(object sender, EventArgs e)
         {
-           
+            oprt = '+';
+            option = true;
                 textBox1.Text = textBox1.Text + "+";
            
         }
 
         private void Button11_Click(object sender, EventArgs e)
         {
-           
+            switch (oprt)
+            {
+                case '+':
+                    {
+                       int ans = int.Parse(val_1) + int.Parse(val_2);
+                        textBox1.Text = Convert.ToString(ans);
+                        break;
+                    }
+            }
+        }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
