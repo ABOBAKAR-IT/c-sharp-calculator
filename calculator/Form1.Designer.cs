@@ -148,6 +148,7 @@
             this.button10.TabIndex = 9;
             this.button10.Text = "C";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.Button10_Click);
             // 
             // textBox1
             // 

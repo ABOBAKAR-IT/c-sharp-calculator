@@ -61,10 +61,28 @@ namespace calculator
             if (textBox1.Text == "0" || textBox1.Text == "" || textBox1.Text == null)
             {
                 textBox1.Text = "2";
+                val_1 = "2";
             }
             else
             {
-                textBox1.Text = textBox1.Text + "2";
+                if (option == false)
+                {
+                    val_1 += "2";
+                    textBox1.Text += "2";
+                }
+                else
+                {
+                    if (val_2 == "")
+                    {
+                        val_2 = "2";
+                        textBox1.Text += "2";
+                    }
+                    else
+                    {
+                        val_2 += "2";
+                        textBox1.Text += "2";
+                    }
+                }
             }
         }
 
@@ -73,10 +91,28 @@ namespace calculator
             if (textBox1.Text == "0" || textBox1.Text == "" || textBox1.Text == null)
             {
                 textBox1.Text = "3";
+                val_1 = "3";
             }
             else
             {
-                textBox1.Text = textBox1.Text + "3";
+                if (option == false)
+                {
+                    val_1 += "3";
+                    textBox1.Text += "3";
+                }
+                else
+                {
+                    if (val_2 == "")
+                    {
+                        val_2 = "3";
+                        textBox1.Text += "3";
+                    }
+                    else
+                    {
+                        val_2 += "3";
+                        textBox1.Text += "3";
+                    }
+                }
             }
         }
 
@@ -85,10 +121,28 @@ namespace calculator
             if (textBox1.Text == "0" || textBox1.Text == "" || textBox1.Text == null)
             {
                 textBox1.Text = "4";
+                val_1 = "4";
             }
             else
             {
-                textBox1.Text = textBox1.Text + "4";
+                if (option == false)
+                {
+                    val_1 += "4";
+                    textBox1.Text += "4";
+                }
+                else
+                {
+                    if (val_2 == "")
+                    {
+                        val_2 = "4";
+                        textBox1.Text += "4";
+                    }
+                    else
+                    {
+                        val_2 += "4";
+                        textBox1.Text += "4";
+                    }
+                }
             }
         }
 
@@ -97,10 +151,28 @@ namespace calculator
             if (textBox1.Text == "0" || textBox1.Text == "" || textBox1.Text == null)
             {
                 textBox1.Text = "5";
+                val_1 = "5";
             }
             else
             {
-                textBox1.Text = textBox1.Text + "5";
+                if (option == false)
+                {
+                    val_1 += "5";
+                    textBox1.Text += "5";
+                }
+                else
+                {
+                    if (val_2 == "")
+                    {
+                        val_2 = "5";
+                        textBox1.Text += "5";
+                    }
+                    else
+                    {
+                        val_2 += "5";
+                        textBox1.Text += "5";
+                    }
+                }
             }
         }
 
@@ -109,10 +181,28 @@ namespace calculator
             if (textBox1.Text == "0" || textBox1.Text == "" || textBox1.Text == null)
             {
                 textBox1.Text = "6";
+                val_1 = "6";
             }
             else
             {
-                textBox1.Text = textBox1.Text + "6";
+                if (option == false)
+                {
+                    val_1 += "6";
+                    textBox1.Text += "6";
+                }
+                else
+                {
+                    if (val_2 == "")
+                    {
+                        val_2 = "6";
+                        textBox1.Text += "6";
+                    }
+                    else
+                    {
+                        val_2 += "6";
+                        textBox1.Text += "6";
+                    }
+                }
             }
         }
 
@@ -121,23 +211,60 @@ namespace calculator
             if (textBox1.Text == "0" || textBox1.Text == "" || textBox1.Text == null)
             {
                 textBox1.Text = "7";
+                val_1 = "7";
             }
             else
             {
-                textBox1.Text = textBox1.Text + "7";
+                if (option == false)
+                {
+                    val_1 += "7";
+                    textBox1.Text += "7";
+                }
+                else
+                {
+                    if (val_2 == "")
+                    {
+                        val_2 = "7";
+                        textBox1.Text += "7";
+                    }
+                    else
+                    {
+                        val_2 += "7";
+                        textBox1.Text += "7";
+                    }
+                }
             }
         }
 
         private void Button14_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "0" || textBox1.Text == "" || textBox1.Text == null)
-            {
-                textBox1.Text = "8";
-            }
-            else
-            {
-                textBox1.Text = textBox1.Text + "8";
-            }
+           
+                if (textBox1.Text == "0" || textBox1.Text == "" || textBox1.Text == null)
+                {
+                    textBox1.Text = "8";
+                    val_1 = "8";
+                }
+                else
+                {
+                    if (option == false)
+                    {
+                        val_1 += "8";
+                        textBox1.Text += "8";
+                    }
+                    else
+                    {
+                        if (val_2 == "")
+                        {
+                            val_2 = "8";
+                            textBox1.Text += "8";
+                        }
+                        else
+                        {
+                            val_2 += "8";
+                            textBox1.Text += "8";
+                        }
+                    }
+                }
         }
 
         private void Button13_Click(object sender, EventArgs e)
@@ -145,10 +272,28 @@ namespace calculator
             if (textBox1.Text == "0" || textBox1.Text == "" || textBox1.Text == null)
             {
                 textBox1.Text = "9";
+                val_1 = "9";
             }
             else
             {
-                textBox1.Text = textBox1.Text + "9";
+                if (option == false)
+                {
+                    val_1 += "9";
+                    textBox1.Text += "9";
+                }
+                else
+                {
+                    if (val_2 == "")
+                    {
+                        val_2 = "9";
+                        textBox1.Text += "9";
+                    }
+                    else
+                    {
+                        val_2 += "9";
+                        textBox1.Text += "9";
+                    }
+                }
             }
         }
 
@@ -157,41 +302,57 @@ namespace calculator
             if (textBox1.Text == "0" || textBox1.Text == "" || textBox1.Text == null)
             {
                 textBox1.Text = "0";
+                val_1 = "0";
             }
             else
             {
-                textBox1.Text = textBox1.Text + "0";
+                if (option == false)
+                {
+                    val_1 += "0";
+                    textBox1.Text += "0";
+                }
+                else
+                {
+                    if (val_2 == "")
+                    {
+                        val_2 = "0";
+                        textBox1.Text += "0";
+                    }
+                    else
+                    {
+                        val_2 += "0";
+                        textBox1.Text += "0";
+                    }
+                }
             }
         }
 
         private void Button18_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "0" || textBox1.Text == "" || textBox1.Text == null)
-            {
-                textBox1.Text = ".";
-            }
-            else
-            {
-                textBox1.Text = textBox1.Text + ".";
-            }
+           
         }
 
         private void Button4_Click(object sender, EventArgs e)
         {
-                textBox1.Text = textBox1.Text + "/";
+            oprt = '/';
+            option = true;
+            textBox1.Text = textBox1.Text + "/";
             
         }
 
         private void Button9_Click(object sender, EventArgs e)
         {
-                textBox1.Text = textBox1.Text + "*";
+            oprt = '*';
+            option = true;
+            textBox1.Text = textBox1.Text + "*";
             
         }
 
         private void Button12_Click(object sender, EventArgs e)
         {
-           
-                textBox1.Text = textBox1.Text + "-";
+            oprt = '-';
+            option = true;
+            textBox1.Text = textBox1.Text + "-";
             
         }
 
@@ -213,11 +374,36 @@ namespace calculator
                         textBox1.Text = Convert.ToString(ans);
                         break;
                     }
+                case '-':
+                    {
+                        int ans = int.Parse(val_1) - int.Parse(val_2);
+                        textBox1.Text = Convert.ToString(ans);
+                        break;
+                    }
+                case '/':
+                    {
+                        int ans = int.Parse(val_1) / int.Parse(val_2);
+                        textBox1.Text = Convert.ToString(ans);
+                        break;
+                    }
+                case '*':
+                    {
+                        int ans = int.Parse(val_1) * int.Parse(val_2);
+                        textBox1.Text = Convert.ToString(ans);
+                        break;
+                    }
             }
+        }
+
+        private void Button10_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
         }
 
         private void Button5_Click(object sender, EventArgs e)
         {
+            textBox1.Text = "";
+
 
         }
     }
