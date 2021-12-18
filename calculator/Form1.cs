@@ -398,12 +398,20 @@ namespace calculator
         private void Button10_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
+            val_2 = "";
+            val_1 = "";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void Button5_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
-
+            val_2 = "";
+            val_1 = "";
 
         }
     }
