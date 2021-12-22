@@ -366,6 +366,7 @@ namespace calculator
 
         private void Button11_Click(object sender, EventArgs e)
         {
+            textBox1.RightToLeft = RightToLeft.Yes;
             switch (oprt)
             {
                 case '+':
@@ -397,6 +398,7 @@ namespace calculator
 
         private void Button10_Click(object sender, EventArgs e)
         {
+            textBox1.RightToLeft = RightToLeft.No;
             textBox1.Text = "";
             val_2 = "";
             val_1 = "";
@@ -409,6 +411,7 @@ namespace calculator
 
         private void Button5_Click(object sender, EventArgs e)
         {
+            textBox1.RightToLeft = RightToLeft.No;
             textBox1.Text = "";
             val_2 = "";
             val_1 = "";
